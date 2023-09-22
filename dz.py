@@ -1,6 +1,6 @@
-f = int(input())
-b = 1
-while f != 1:
-    b =b*f
-    f = f - 1
-print(b)
+number = int(input())
+factorial = 1
+while number != 1:
+    factorial = factorial*number
+    number = number - 1
+print(factorial)
